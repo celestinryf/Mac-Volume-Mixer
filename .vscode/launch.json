@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mac-Volume-Mixer}/mac-volume-mixer/swift",
+            "name": "Debug AudioControl (mac-volume-mixer/swift)",
+            "program": "${workspaceFolder:Mac-Volume-Mixer}/mac-volume-mixer/swift/.build/debug/AudioControl",
+            "preLaunchTask": "swift: Build Debug AudioControl (mac-volume-mixer/swift)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mac-Volume-Mixer}/mac-volume-mixer/swift",
+            "name": "Release AudioControl (mac-volume-mixer/swift)",
+            "program": "${workspaceFolder:Mac-Volume-Mixer}/mac-volume-mixer/swift/.build/release/AudioControl",
+            "preLaunchTask": "swift: Build Release AudioControl (mac-volume-mixer/swift)"
+        }
+    ]
+}
